@@ -57,3 +57,16 @@ catkin_make
 # https://github.com/CURG/graspit_interface
 
 # https://github.com/HumanoidRobotics/baxter_example_ws
+
+
+
+# GraspIt!
+
+# Install dependencies
+
+sudo apt-get install -y libqt4-dev libqt4-opengl-dev libqt4-sql-psql libcoin80-dev libsoqt4-dev libblas-dev liblapack-dev libqhull-dev
+
+# Download GraspIt!
+
+# git clone https://github.com/graspit-simulator/graspit.git
+
