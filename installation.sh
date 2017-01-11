@@ -7,13 +7,18 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 
 sudo apt-get update
 
-sudo apt-get install ros-kinetic-desktop-full
+sudo apt-get install -y ros-kinetic-desktop-full
 
+sudo rosdep init
+
+rosdep update
 
 
 ## install fetch ros set-up
 
-sudo apt-get install ros-kinetic-opencv-candidate ros-kinetic-simple-grasping ros-kinetic-moveit* ros-kinetic-slam-karto
+sudo apt-get install -y ros-kinetic-opencv-candidate ros-kinetic-simple-grasping ros-kinetic-moveit* ros-kinetic-slam-karto
+
+source /opt/ros/kinetic/setup.bash
 
 mkdir -p ~/fetch_ws/src
 cd ~/fetch_ws/src 
