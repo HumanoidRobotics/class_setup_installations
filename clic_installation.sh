@@ -16,7 +16,7 @@ rosdep update
 
 ## install fetch-ros dependencies
 
-sudo apt-get install -y ros-kinetic-opencv-candidate ros-kinetic-simple-grasping ros-kinetic-moveit* ros-kinetic-slam-karto
+sudo apt-get install -y ros-kinetic-opencv-candidate ros-kinetic-simple-grasping ros-kinetic-moveit* ros-kinetic-navigation ros-kinetic-slam-karto ros-kinetic-costmap-2d ros-kinetic-rgbd-launch 
 
 
 # Install GraspIt! dependencies
