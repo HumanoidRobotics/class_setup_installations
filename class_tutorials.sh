@@ -1,4 +1,16 @@
 
+# Demo Pick n Place
+
+
+# Rebuild the World Floor Map
+# remove the map_file args from fetch_nav.launch file
+roslaunch fetch_gazebo playground.launch
+roslaunch fetch_navigation build_map.launch
+rosrun rviz rviz
+roslaunch fetch_gazebo_demo fetch_nav.launch
+
+
+
 
 
 

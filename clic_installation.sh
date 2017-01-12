@@ -24,3 +24,5 @@ sudo apt-get install -y ros-kinetic-opencv-candidate ros-kinetic-simple-grasping
 sudo apt-get install -y libqt4-dev libqt4-opengl-dev libqt4-sql-psql libcoin80-dev libsoqt4-dev libblas-dev liblapack-dev libqhull-dev
 
 # Install Node-manager
+
+sudo apt-get install ros-kinetic-node-manager-fkie
