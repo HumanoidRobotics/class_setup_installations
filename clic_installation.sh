@@ -26,3 +26,5 @@ sudo apt-get install -y libqt4-dev libqt4-opengl-dev libqt4-sql-psql libcoin80-d
 # Install Node-manager
 
 sudo apt-get install ros-kinetic-node-manager-fkie
+
+sudo apt-get install ipython
