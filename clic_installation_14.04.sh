@@ -28,3 +28,9 @@ sudo apt-get install -y libqt4-dev libqt4-opengl-dev libqt4-sql-psql libcoin80-d
 sudo apt-get install ros-indigo-node-manager-fkie
 
 sudo apt-get install ipython
+
+# Install PR2 dependencies
+sudo apt-get install -y ros-indigo-gazebo-* ros-indigo-pr2* 
+
+# Install Baxter dependencies
+sudo apt-get install -y ros-indigo-baxter-*
