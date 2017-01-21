@@ -1,1 +1,1 @@
-# fetch_example_ws
+# Humanoid Robotics Lab Set-up
